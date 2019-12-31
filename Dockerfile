@@ -45,6 +45,8 @@ RUN \
     make &&\
     make install
 
+
+# PATH
 ENV PATH "${PATH}:/usr/local/lib/"
 
 
